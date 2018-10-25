@@ -5,8 +5,8 @@ using namespace cv;
 
 int frequency = 20;
 int loopCounter = 0;
+int cntr = 0;
 
-Mat image_open;
 Mat frame;
 
 int main(int argc, char* argv[]){
@@ -27,8 +27,6 @@ int main(int argc, char* argv[]){
 		cout << "Cannot open the video camera" << endl;
 		return -1;
 	} 
-	
-	int cntr = 0;
 	
 	while (ros::ok()) 
 	{

@@ -12,8 +12,6 @@ find_package(catkin REQUIRED COMPONENTS
   cv_bridge
 )
 
-find_package (GeographicLib 1.34 REQUIRED)
-
 find_package (OpenCV)
 
 include_directories(
